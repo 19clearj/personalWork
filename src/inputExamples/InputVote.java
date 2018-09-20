@@ -8,7 +8,7 @@ public class InputVote {
 		// TODO Auto-generated method stub
 		boolean answer = false;
 		Scanner input = new Scanner(System.in);
-		System.out.println("True or flase? Did you vote?");
+		System.out.println("True or false? Did you vote?");
 		answer = input.nextBoolean();
 		System.out.println( "Did you vote?" + '\n' + answer );
 	
