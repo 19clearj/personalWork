@@ -8,6 +8,9 @@ public class testClass {
 		bob.sayHello();
 		Friend joe = new Friend();
 		joe.sayMessage();
+		System.out.println(bob.getAge());
+		bob.setAge(67);
+		System.out.println(bob.setAge(67));
 		
 	}
 
