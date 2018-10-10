@@ -10,7 +10,7 @@ public class testClass {
 		joe.sayMessage();
 		System.out.println(bob.getAge());
 		bob.setAge(67);
-		System.out.println(bob.setAge(67));
+		System.out.println(bob.getAge());
 		
 	}
 
