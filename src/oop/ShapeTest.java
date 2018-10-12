@@ -17,9 +17,7 @@ public class ShapeTest {
 		System.out.println("The area of the rectangle is " + bob.area());
 		System.out.println("The perimeter of the rectangle is " + bob.perimeter());
 	
-
-		 
-			 CircleClass fred = new CircleClass();
+		CircleClass fred = new CircleClass();
 		System.out.println("What is the radius of the circle?");
 		fred.setRadius(input.nextDouble());
 		System.out.println("The area of the circle is " + fred.area());
