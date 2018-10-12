@@ -11,6 +11,7 @@ public class CircleTest {
 		bob.setRadius(7.2);
 		System.out.println("Ball radius:" + bob.getRadius());
 		
+		//constructor that uses alternate constructor
 		bob = new CircleClass(12.25);
 		System.out.println("Ball radius:" + bob.getRadius());
 		System.out.println("Ball circumference:" + bob.circumference());
