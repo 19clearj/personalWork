@@ -12,8 +12,7 @@ public class HeightAndShoe {
 		double shoe = input.nextDouble();
 		System.out.println("What is your height in inches?");
 		double height = input.nextDouble();
-		System.out.println("Your shoe size is greater than 9 ..." + (shoe >= 9));
-		System.out.println("Your height is less than 62 inches ..." + (height <= 62));
+		System.out.println(height<=26 && shoe >9);
 	}
 
 }
