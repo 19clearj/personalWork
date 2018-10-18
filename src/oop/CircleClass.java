@@ -10,10 +10,17 @@ public CircleClass(){
 }
 // alternate constructor
 public CircleClass(double newRadius){
+	if (newRadius>= 0){
+		newRadius = 10;
+	}
 	radius = newRadius;
+	
 }
 //mutator methods
 public void setRadius(double newRadius){
+	if(newRadius >= 0){
+		newRadius = 10;
+	}
 	radius = newRadius;
 }
 //accessor methods
