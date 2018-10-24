@@ -30,8 +30,8 @@ public class Cat {
 		return sleep;
 	}
 	public double sleepMore(){
-
-		return sleep + 4;
+sleep = sleep + 4;
+		return sleep;
 	}
 	public double sleepLess(){
 
