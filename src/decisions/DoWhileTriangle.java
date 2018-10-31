@@ -36,8 +36,6 @@ public class DoWhileTriangle {
 			System.out.println("Enter the length of the base of a triangle: (enter -1.0 to stop)");
 			bob.setBase(input.nextDouble());
 		} while (bob.getBase() != -1.0);
-//		System.out.println("Enter the length of the base of a triangle: (enter -1.0 to stop)");
-//		bob.setBase(input.nextDouble());
 		
 	}
 
