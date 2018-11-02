@@ -12,7 +12,7 @@ public class NestedLoops3 {
 	int divisor = 0;
 	int biggestint = 0;
 	int biggestdiv = 0;
-	for(counter2 = 1000; counter2 >= 1; counter2 = counter2 - 1){
+	for(counter2 = 1000; counter2>= 1 ; counter2 = counter2 - 1){
 		for (counter = counter2; counter >= 1; counter = counter -1){
 			if(counter2 % counter == 0) {
 				divisor++;
