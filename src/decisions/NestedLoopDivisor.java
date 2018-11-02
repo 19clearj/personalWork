@@ -16,7 +16,7 @@ public class NestedLoopDivisor {
 		int biggestdiv = 0;
 		for(counter2 = 1 ; counter2<= number; counter2 = counter2 + 1){
 			for (counter = 1; counter <= counter2; counter = counter + 1){
-				if(counter2 % counter == 0) {
+				if(counter2 % counter== 0) {
 					divisor++;
 				}
 			}
