@@ -1,7 +1,7 @@
 package randomNumbers;
 
 import java.util.Random;
-
+import java.util.Random;
 public class Activity3 {
 
 	public static void main(String[] args) {
