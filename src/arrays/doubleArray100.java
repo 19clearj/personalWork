@@ -6,7 +6,7 @@ public class doubleArray100 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Random generator = new Random(5);
+		Random generator = new Random(6);
 		int min = 0;
 		int max = 100;
 		int randomNum = min + generator.nextInt(max - min + 1);
