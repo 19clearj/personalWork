@@ -9,17 +9,32 @@ public class multiPracticeTest {
 		Scanner input = new Scanner(System.in);
 		System.out.println("How many students are there?");
 		int students = input.nextInt();
+		input.nextLine();
 		String[][] bob = new String[2][students];
-		for (int i = 0; i < bob[0].length; i++) {
+		for (int i = 0; i < 2; i++) {
 
-			for (int x = 0; x < bob.length; x++) {
+			for (int x = 0; x < students; x++) {
 
 				System.out.println("Enter a name: (First Last)");
 				String name = input.nextLine();
 				String first = name.substring(0, name.indexOf(" "));
 				String last = name.substring(name.indexOf(" ") + 1, name.length());
-				bob[i][x] = first;
 
+				if (i == 0) {
+					bob[x][i] = last;
+				}
+				if (i == 1) {
+
+					bob[x][i] = first;
+				}
+
+			}
+		}
+
+		for (int x = 0; x < 2; x++) {
+
+			for (int i = 0; i < students; i++) {
+				System.out.println(bob[x][i]);
 			}
 		}
 	}
