@@ -26,4 +26,20 @@ public class classDesignPTDefinition {
 	public void reset() {
 		minutesUsed = 0;
 	}
+
+	public Object clone() {
+		return new classDesignPTDefinition(myNumber, minutesUsed);
+	}
+
+	public String toString() {
+		return "classDesignPTDefinition object: My number" + myNumber + "Minutes used: " + minutesUsed;
+	}
+
+	public boolean equals(Object one, Object two) {
+		if (one.toString().compareTo(two.toString()) == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
