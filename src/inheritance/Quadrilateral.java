@@ -55,4 +55,16 @@ public class Quadrilateral {
 	public double perimeter() {
 		return side1 + side2 + side3 + side4;
 	}
+
+	public String toString() {
+		return "Quadrilateral object: Side one: " + side1 + " Side two " + side2 + " Side three: " + side3
+				+ " Side four: " + side4;
+	}
+
+	public boolean equals(Object otherObject) {
+		return (this.toString().equals(otherObject.toString()));
+	}
+	public Object clone(){
+		return new Quadrilateral(side1, side2, side3, side4);
+	}
 }
